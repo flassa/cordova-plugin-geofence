@@ -19,6 +19,8 @@
         <clobbers target="geofence" />
     </js-module>
 
+    <dependency id="com.google.playservices" />
+    
     <platform name="android">
         <source-file src="src/android/AbstractGoogleServiceCommand.java" target-dir="src/com/cowbell/cordova/geofence" />
         <source-file src="src/android/AddGeofenceCommand.java" target-dir="src/com/cowbell/cordova/geofence" />
